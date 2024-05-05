@@ -102,6 +102,7 @@ namespace CodeBE_LEM.Controllers.ClassroomController
                     Id = x.Id,
                     ClassEventId = x.ClassEventId,
                     Description = x.Description,
+                    Instruction = x.Instruction,
                     Name = x.Name,
                     CorrectAnswer = x.CorrectAnswer,
                     StudentAnswer = x.StudentAnswer,

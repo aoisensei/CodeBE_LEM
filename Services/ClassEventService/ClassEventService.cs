@@ -330,9 +330,8 @@ namespace CodeBE_LEM.Services.ClassroomService
                             ClassEvent.IsSubmit = true;
                         }
                     }
-                    ClassEvents = FilterData(ClassEvents, FilterDTO);
-
                 }
+                ClassEvents = FilterData(ClassEvents, FilterDTO);
 
                 return ClassEvents;
             }
